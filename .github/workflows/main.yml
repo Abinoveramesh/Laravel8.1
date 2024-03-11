@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       
-      - name: multiple command
+      - name: Deployment
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.HOST }}
